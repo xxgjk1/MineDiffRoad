@@ -10,10 +10,10 @@ residual_bound: 0.1
 diffusion_steps: 1000
 cosine_offset: 0.008
 min_alpha: 0.000001
-epochs: 80
+epochs: 400
 warmup_epochs: 10
 ema_decay: 0.99
-batch_size: 8
+batch_size: 16
 workers: 4
 amp: true
 empty_cache_each_epoch: false
