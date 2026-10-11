@@ -218,7 +218,7 @@ Copy [configs/paper.yaml](configs/paper.yaml) to `configs/my_run.yaml`. Set `ima
 | Setting | Provided configuration |
 |---|---|
 | RGB / point budget | 512 × 512 / 16,384 points |
-| Training | 80 epochs; batch size 8; AdamW; cosine decay |
+| Training | 400 epochs; batch size 16; AdamW; cosine decay |
 | Warm-up | Epochs 1–10 use geometric ring negatives |
 | Teacher | Initialized at epoch 11; EMA coefficient 0.99 |
 | Reconstruction | 1,000 noise levels; cosine offset 0.008 |
