@@ -1,0 +1,5 @@
+Recovery training variant,Standard IoU ↑,Mean over seven conditions ↑,Training seconds/epoch ↓
+Direct soft candidates,67.49,62.71,64
+Ordinary denoising,67.86,63.23,82
+"Multiple noise levels, no time input",68.09,63.57,111
+Reconstruction conditioned on diffusion time,68.57,64.05,114

@@ -1,0 +1,5 @@
+Feature fusion,Negative ranking,IoU ↑
+Concatenation,Confidence,64.93
+Concatenation,Reliability,67.92
+Reliability weighted,Confidence,66.14
+Reliability weighted,Reliability,68.76

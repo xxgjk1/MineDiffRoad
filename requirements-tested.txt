@@ -1,0 +1,9 @@
+# Observed development environment; torch's local CUDA suffix is cu128.
+torch==2.11.0
+numpy==2.2.6
+scipy==1.15.3
+Pillow==12.1.1
+PyYAML==6.0.3
+addict==2.4.0
+spconv-cu124==2.3.8
+cumm-cu124==0.7.11

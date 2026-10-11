@@ -1,0 +1,197 @@
+{
+  "prepared": "2026-10-11",
+  "paper_title": "MineDiffRoad: Supervision Admission Guided by Reliability for Mine Road Segmentation with Conservative Annotations",
+  "sources": [
+    {
+      "file": "MineDiffRoad_算法源码_20261011.zip",
+      "sha256": "cdd5a84591c7ca7c9268ecf086739b3d4f47ea42238b8a7d38e2bde1b7fda5a9"
+    },
+    {
+      "file": "main(2).tex",
+      "sha256": "2f7888b88cc728dacb241da5b12b998ac80d4b6aaf51aeb740532b1189b865ec"
+    },
+    {
+      "file": "MineDiffRoad_20261011_UpdatedFigures_English.pdf",
+      "sha256": "ede802a2d0417ef4648600881f1d8be89bb076b643361bf9fe8444bf8368dfbb"
+    }
+  ],
+  "figures": [
+    {
+      "figure": 1,
+      "pdf_page_1_based": 2,
+      "file": "docs/figures/problem.png",
+      "crop_points": [
+        108,
+        361,
+        502,
+        486
+      ],
+      "dpi": 360,
+      "size_pixels": [
+        1970,
+        625
+      ],
+      "sha256": "93d6af6ba34d66543e713c049ddc3ecd80ba49b366724d98ccf0b1be0e83b5cc",
+      "status": "Reproduced from the supplied paper PDF."
+    },
+    {
+      "figure": 2,
+      "pdf_page_1_based": 6,
+      "file": "docs/figures/architecture.png",
+      "crop_points": [
+        108,
+        123,
+        502,
+        299
+      ],
+      "dpi": 360,
+      "size_pixels": [
+        1970,
+        880
+      ],
+      "sha256": "5a7f3f874cd582faf1833c923e5de4f8bf3fc16b2dc4f0f1b6ad1b651e889ce3",
+      "status": "Reproduced from the supplied paper PDF."
+    },
+    {
+      "figure": 3,
+      "pdf_page_1_based": 9,
+      "file": "docs/figures/supervision_states.png",
+      "crop_points": [
+        108,
+        123,
+        502,
+        346
+      ],
+      "dpi": 360,
+      "size_pixels": [
+        1970,
+        1115
+      ],
+      "sha256": "a15cd2634b2617862dd4e38e434e6a0df4a439e40420abc25bec2915c6d3a506",
+      "status": "Reproduced from the supplied paper PDF."
+    },
+    {
+      "figure": 4,
+      "pdf_page_1_based": 16,
+      "file": "docs/figures/road_recovery.png",
+      "crop_points": [
+        108,
+        151,
+        502,
+        353
+      ],
+      "dpi": 360,
+      "size_pixels": [
+        1970,
+        1010
+      ],
+      "sha256": "0042e01c0fd436221deaea34da5663aaefb3ebcff7f91a3e38f13351cc226cf7",
+      "status": "Reproduced from the supplied paper PDF."
+    },
+    {
+      "figure": 5,
+      "pdf_page_1_based": 17,
+      "file": "docs/figures/comparison_samples_1_4.png",
+      "crop_points": [
+        108,
+        123,
+        502,
+        519
+      ],
+      "dpi": 360,
+      "size_pixels": [
+        1970,
+        1980
+      ],
+      "sha256": "840bb317616f84ddf8c9d203f16c7d3db2cbd01cb790138be170347f0972bc8f",
+      "status": "Reproduced from the supplied paper PDF."
+    },
+    {
+      "figure": 6,
+      "pdf_page_1_based": 18,
+      "file": "docs/figures/comparison_samples_5_8.png",
+      "crop_points": [
+        108,
+        123,
+        502,
+        519
+      ],
+      "dpi": 360,
+      "size_pixels": [
+        1970,
+        1980
+      ],
+      "sha256": "16fbe39299482fc131abd71e34041267dbf45b918a0e7137a18681d860509d89",
+      "status": "Reproduced from the supplied paper PDF."
+    },
+    {
+      "figure": 7,
+      "pdf_page_1_based": 21,
+      "file": "docs/figures/negative_selection.png",
+      "crop_points": [
+        108,
+        123,
+        502,
+        335
+      ],
+      "dpi": 360,
+      "size_pixels": [
+        1970,
+        1060
+      ],
+      "sha256": "3b46d131703bb0817c56a5802b2844c1b396d5b35af823b909d69deb535f51ec",
+      "status": "Reproduced from the supplied paper PDF."
+    },
+    {
+      "figure": 8,
+      "pdf_page_1_based": 29,
+      "file": "docs/figures/failure_case.png",
+      "crop_points": [
+        108,
+        123,
+        502,
+        215
+      ],
+      "dpi": 360,
+      "size_pixels": [
+        1970,
+        460
+      ],
+      "sha256": "ae9c097b6d528ffc002bea7ec57657f969604b4d51ab7d5a0ee2cf571eb91950",
+      "status": "Reproduced from the supplied paper PDF."
+    }
+  ],
+  "tables": [
+    {
+      "number": 1,
+      "tex_label": "tab:main",
+      "status": "Transcribed from the supplied paper tables."
+    },
+    {
+      "number": 2,
+      "tex_label": "tab:mechanism",
+      "status": "Transcribed from the supplied paper tables."
+    },
+    {
+      "number": 3,
+      "tex_label": "tab:recovery_ablation",
+      "status": "Transcribed from the supplied paper tables."
+    },
+    {
+      "number": 4,
+      "tex_label": "tab:generalization_summary",
+      "status": "Transcribed from the supplied paper tables."
+    },
+    {
+      "number": 5,
+      "tex_label": "tab:structure",
+      "status": "Transcribed from the supplied paper tables."
+    },
+    {
+      "number": 6,
+      "tex_label": "tab:efficiency",
+      "status": "Transcribed from the supplied paper tables."
+    }
+  ],
+  "source_pdf_and_tex_bundled": false
+}

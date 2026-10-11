@@ -1,0 +1,50 @@
+seed: 0
+device: cuda
+image_size: 512
+num_points: 16384
+voxel_size: 0.05
+depth_tolerance_m: 0.50
+# Physical metres corresponding to one normalized coordinate unit; manuscript unspecified.
+coordinate_noise_scale_m: 1.0
+residual_bound: 0.1
+diffusion_steps: 1000
+cosine_offset: 0.008
+min_alpha: 0.000001
+epochs: 80
+warmup_epochs: 10
+ema_decay: 0.99
+batch_size: 8
+workers: 4
+amp: true
+empty_cache_each_epoch: false
+# One of the manuscript's search candidates, NOT a recovered selected setting.
+learning_rate: 0.00006
+weight_decay: 0.01
+grad_clip_norm: 1.0
+skeleton_iterations: 10
+confident_threshold: 0.90
+threshold: 0.50
+min_component_area: 50
+boundary_tolerance: 2
+selection:
+  outer: 25
+  inner: 11
+  tau_n: 0.10
+  tau_r: 0.50
+  tau_p: 0.90
+  delta: 0.05
+  tau_q: 0.50
+loss_weights:
+  seg: 1.0
+  rec: 0.5
+  rel: 0.5
+  diff: 0.1
+  x0: 0.1
+  b: 0.2
+  s: 0.2
+  c: 0.1
+  delta: 0.05
+# Required for a paper-protocol training run. No automatic network download.
+imagenet_checkpoint: null
+imagenet_sha256: null
+allow_random_image_init: false

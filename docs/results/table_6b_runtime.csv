@@ -1,0 +1,4 @@
+Timed scope,Mean (ms) ↓,P95 (ms) ↓,FPS ↑
+Network forward pass,45.3,52.1,22.1
+"Loading, alignment, forward pass, postprocessing",59.1,70.4,16.9
+With optional graph constraint,64.8,77.6,15.4

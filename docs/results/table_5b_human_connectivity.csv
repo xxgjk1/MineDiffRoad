@@ -1,0 +1,5 @@
+Method,Success when connection is required ↑,False bridge when separation is required ↓
+Concat,45.11,20.21
+CorrMatch,49.31,16.43
+MineDiffRoad,56.22,11.81
+Complete label model,62.81,8.71

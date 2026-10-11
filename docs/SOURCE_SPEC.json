@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "source": "main(2).tex",
+      "sha256": "2f7888b88cc728dacb241da5b12b998ac80d4b6aaf51aeb740532b1189b865ec",
+      "role": "primary method definition"
+    },
+    {
+      "source": "earlier manuscript with supplement",
+      "sha256": "9dfc12acc1636bcabd98794a270b344d6608e017bc9c85424df0d57786b03014",
+      "role": "layer shapes and supplemental implementation details"
+    }
+  ],
+  "source_files_bundled": false,
+  "implementation_notes": "IMPLEMENTATION_NOTES.md"
+}
