@@ -158,7 +158,7 @@ FPS 缓存步骤可选，会输出新清单、索引和元数据；后续可使�
 cp configs/paper.yaml configs/my_run.yaml
 ```
 
-修改 `configs/my_run.yaml` 的 `imagenet_checkpoint`，填写 [NVIDIA SegFormer](https://github.com/NVlabs/SegFormer) 发布的 MiT-B0 ImageNet 权重路径，可同时填写 `imagenet_sha256`。默认 512×512、16,384 点、80 epoch、batch size 8，前 10 epoch 环带预热，第 11 epoch 初始化 EMA=0.99 的教师。默认学习率和权重衰减为论文搜索空间中的一个候选组合，最终设置应由验证集选择并记录。
+修改 `configs/my_run.yaml` 的 `imagenet_checkpoint`，填写 [NVIDIA SegFormer](https://github.com/NVlabs/SegFormer) 发布的 MiT-B0 ImageNet 权重路径，可同时填写 `imagenet_sha256`。默认 512×512、16,384 点、400 epoch、batch size 16，前 10 epoch 环带预热，第 11 epoch 初始化 EMA=0.99 的教师。默认学习率和权重衰减为论文搜索空间中的一个候选组合，最终设置应由验证集选择并记录。
 
 ```bash
 python -m minediffroad train \
