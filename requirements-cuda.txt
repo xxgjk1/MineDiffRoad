@@ -1,4 +1,4 @@
 -r requirements.txt
-# The CUDA 12.4 build below was used for source validation on an RTX 3090.
+# The CUDA 12.4 build below was used for source validation on an GPU.
 spconv-cu124==2.3.8
 cumm-cu124==0.7.11
