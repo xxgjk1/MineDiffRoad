@@ -1,0 +1,2 @@
+"""MineDiffRoad: reliability-guided mine road segmentation."""
+__version__ = "0.2.0"

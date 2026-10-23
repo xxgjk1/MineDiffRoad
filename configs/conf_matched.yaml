@@ -1,0 +1,3 @@
+base: paper.yaml
+selection:
+  negative_rule: confidence_matched

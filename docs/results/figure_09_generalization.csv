@@ -1,0 +1,5 @@
+Evaluation,MineDiffRoad IoU ↑,Reference method,Reference IoU ↑,Difference
+Human conservative masks,67.57,Concat,65.82,+1.75 pp
+"Mine-B, no adaptation",63.27,CSL,62.13,+1.14 pp
+RELLIS-3D surface task,63.49,CSL,62.41,+1.08 pp
+Natural degradation mean,64.05,Conf,60.72,+3.33 pp

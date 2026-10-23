@@ -1,0 +1,61 @@
+seed: 0
+device: cuda
+protocol_version: "2026-10-21"
+image_encoder: mit_b0_four_stage
+image_size: 1024
+# Aspect-preserving fit + padding (or use crop).
+resize_mode: pad
+feature_fusion: reliability
+num_points: 16384
+voxel_size: 0.05
+# Retain the nearest depth as stated in the current manuscript.
+depth_tolerance_m: 0.0
+# Physical metres corresponding to one normalized coordinate unit.
+coordinate_noise_scale_m: 1.0
+residual_bound: 0.1
+diffusion_steps: 1000
+cosine_offset: 0.008
+min_alpha: 0.000001
+epochs: 400
+# Warmup and EMA settings.
+warmup_epochs: 10
+ema_decay: 0.99
+batch_size: 2
+workers: 4
+amp: true
+empty_cache_each_epoch: false
+# AdamW settings for the user-confirmed Overleaf manuscript.
+learning_rate: 0.001
+weight_decay: 0.0001
+learning_rate_schedule: constant
+grad_clip_norm: 1.0
+skeleton_iterations: 10
+confident_threshold: 0.90
+threshold: 0.50
+min_component_area: 50
+boundary_tolerance: 2
+selection:
+  outer: 25
+  unknown_area_cap: 0.30
+  erosion_kernel: 3
+  negative_rule: reliability
+  confidence_threshold: 0.95
+  tau_n: 0.10
+  tau_r: 0.50
+  tau_p: 0.90
+  delta: 0.05
+  tau_q: 0.50
+loss_weights:
+  seg: 1.0
+  rec: 0.5
+  rel: 0.5
+  diff: 0.1
+  x0: 0.1
+  b: 0.2
+  s: 0.2
+  c: 0.1
+  delta: 0.05
+# Required for a paper-protocol training run. No automatic network download.
+imagenet_checkpoint: null
+imagenet_sha256: null
+allow_random_image_init: false

@@ -1,0 +1,3 @@
+# Example run configuration inheriting the model and training defaults.
+base: paper.yaml
+configuration_role: example_run

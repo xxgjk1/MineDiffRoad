@@ -1,0 +1,11 @@
+# Dependency versions recorded 2026-10-11.
+# Current CPU validation is recorded in docs/SOFTWARE_VALIDATION.md.
+# The historical torch local CUDA suffix was cu128.
+torch==2.11.0
+numpy==2.2.6
+scipy==1.15.3
+Pillow==12.1.1
+PyYAML==6.0.3
+addict==2.4.0
+spconv-cu124==2.3.8
+cumm-cu124==0.7.11

@@ -1,0 +1,5 @@
+Recovery rule,IoU ↑,EP ↑
+Direct supervision with hard candidates,67.09,50.67
+Direct supervision with soft candidates,67.37,52.27
+Reconstruction on the valid set + bounded residual,68.76,54.13
+"Reconstruction on the valid set, residual unbounded",67.59,51.47

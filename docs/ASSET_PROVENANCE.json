@@ -1,0 +1,307 @@
+{
+  "version": "2026-10-21",
+  "scope": "Paper result tables and figure assets",
+  "source": {
+    "tex_attachment": "4778b4ad-14a4-4bfb-85c8-8995d577ade2",
+    "tex_sha256": "d38ed19d3da2d18f08ab4d84d7d0bb03156bfaaee1fa1c3942a977b8f05a093b",
+    "pdf": "MineDiffRoad__Reliability_Guided_Mine_Road_Segmentation_from_Conservative_Annotations__1_ (25).pdf",
+    "pdf_sha256": "04d8770239f26c1268c9d1f6902718ad1c086caf8e2876d5579ef2771004d786"
+  },
+  "figures": [
+    {
+      "figure": 1,
+      "label": "Figure 1",
+      "title": "Conservative annotation",
+      "page": 4,
+      "crop_points": [
+        104.0,
+        347.0,
+        505.0,
+        510.0
+      ],
+      "file": "docs/figures/figure_01.png",
+      "sha256": "f83a1278ee45bf5dd46869058d2006f3e4a7f7c9a48ca97c5b78b54c464dc403"
+    },
+    {
+      "figure": 2,
+      "label": "Figure 2",
+      "title": "Supervision mask generation",
+      "page": 8,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        402.0
+      ],
+      "file": "docs/figures/figure_02.png",
+      "sha256": "07a74c849ed9c3ad50f15411df8b0e9da44cbd18c6c13dc472e304d51afceb62"
+    },
+    {
+      "figure": 3,
+      "label": "Figure 3",
+      "title": "Training and inference",
+      "page": 9,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        385.0
+      ],
+      "file": "docs/figures/figure_03.png",
+      "sha256": "ebd2a4ac21ae54698e08476c9dd856bd305ee053e742b554fd2cd267698cea49"
+    },
+    {
+      "figure": 4,
+      "label": "Figure 4",
+      "title": "Local supervision changes",
+      "page": 11,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        366.0
+      ],
+      "file": "docs/figures/figure_04.png",
+      "sha256": "d9f8f3df31312b32b2e8e35d261daf6c9d5c4cd6920f5e7eadcafce56c568409"
+    },
+    {
+      "figure": 5,
+      "label": "Figure 5",
+      "title": "Road recovery and boundary expansion",
+      "page": 16,
+      "crop_points": [
+        104.0,
+        217.0,
+        505.0,
+        471.0
+      ],
+      "file": "docs/figures/figure_05.png",
+      "sha256": "c30ee89e4df3f8ddea8d1165ffc9205a25458a2be36d97fbcd03c5305bea4d64"
+    },
+    {
+      "figure": 6,
+      "label": "Figure 6",
+      "title": "Confidence and reliability diagnostics",
+      "page": 19,
+      "crop_points": [
+        104.0,
+        219.0,
+        505.0,
+        572.0
+      ],
+      "file": "docs/figures/figure_06.png",
+      "sha256": "150ae88fee06c6ad339c25584d18704701eb28da6408d4f38ad7d306f95a9dca"
+    },
+    {
+      "figure": 7,
+      "label": "Figure 7",
+      "title": "Fixed-quota negative selection",
+      "page": 20,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        396.0
+      ],
+      "file": "docs/figures/figure_07.png",
+      "sha256": "4a6e37b78ce1ba579b72a4a4fcaa764ac88ad8bd7cc22c5b6de6f846650ff5e4"
+    },
+    {
+      "figure": 8,
+      "label": "Figure 8",
+      "title": "Reconstruction benefit and training cost",
+      "page": 21,
+      "crop_points": [
+        104.0,
+        425.0,
+        505.0,
+        627.0
+      ],
+      "file": "docs/figures/figure_08.png",
+      "sha256": "3ac7b74335459b03a5658d08ec571720f1b532704c1332ce89a64b4d0f9122b0"
+    },
+    {
+      "figure": 9,
+      "label": "Figure 9",
+      "title": "Other annotation and domain settings",
+      "page": 22,
+      "crop_points": [
+        104.0,
+        235.0,
+        505.0,
+        437.0
+      ],
+      "file": "docs/figures/figure_09.png",
+      "sha256": "08a79f6c5e1632eee1c777a716515eb45bb40f92bf8d3feb285aa42cc4f21578"
+    },
+    {
+      "figure": 10,
+      "label": "Figure 10",
+      "title": "Latency and throughput",
+      "page": 24,
+      "crop_points": [
+        104.0,
+        325.0,
+        505.0,
+        536.0
+      ],
+      "file": "docs/figures/figure_10.png",
+      "sha256": "42877968d02a7f80940ec7b1b552218a823a53201c6193c1949048faf9689289"
+    },
+    {
+      "figure": 11,
+      "label": "Figure E.11",
+      "title": "SegMine paired RGB and measured point clouds",
+      "page": 31,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        346.0
+      ],
+      "file": "docs/figures/figure_11.png",
+      "sha256": "f668b70f8d1359f94278b07bb15c4beca4400fceb337ca36f1d96e42a1930c89"
+    },
+    {
+      "figure": 12,
+      "label": "Figure F.12",
+      "title": "Validation trajectories",
+      "page": 33,
+      "crop_points": [
+        104.0,
+        244.0,
+        505.0,
+        515.0
+      ],
+      "file": "docs/figures/figure_12.png",
+      "sha256": "a5a0a87f63714c009270f67d109f0cf2ff9c8ac81292527a49b5ff58e1f0068b"
+    },
+    {
+      "figure": 13,
+      "label": "Figure F.13",
+      "title": "SegMine segmentation examples",
+      "page": 34,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        431.0
+      ],
+      "file": "docs/figures/figure_13.png",
+      "sha256": "9b9ac3898b9081713e4867cf95451b1172ec9f1693ec608319d968f68f3637a7"
+    },
+    {
+      "figure": 14,
+      "label": "Figure F.14",
+      "title": "Left-edge recovery ROI",
+      "page": 34,
+      "crop_points": [
+        104.0,
+        446.0,
+        505.0,
+        668.0
+      ],
+      "file": "docs/figures/figure_14.png",
+      "sha256": "c783cd1e19d9dd9325d9e8e523214351c6b1dbcec97fbc6d2549e3021651947d"
+    },
+    {
+      "figure": 15,
+      "label": "Figure F.15",
+      "title": "Quota and false negative supervision",
+      "page": 35,
+      "crop_points": [
+        104.0,
+        165.0,
+        505.0,
+        444.0
+      ],
+      "file": "docs/figures/figure_15.png",
+      "sha256": "8edaeb07ad71f8a3dfd2f19b57a3b76cd34c40004cd9bd2f79452a0ce02d5220"
+    },
+    {
+      "figure": 16,
+      "label": "Figure F.16",
+      "title": "Scene-wise gains",
+      "page": 36,
+      "crop_points": [
+        104.0,
+        237.0,
+        505.0,
+        439.0
+      ],
+      "file": "docs/figures/figure_16.png",
+      "sha256": "7126045755b532a4586a7e19dad7c4302e263aea90e566afde0acc4271716638"
+    },
+    {
+      "figure": 17,
+      "label": "Figure F.17",
+      "title": "RELLIS-3D segmentation examples",
+      "page": 37,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        436.0
+      ],
+      "file": "docs/figures/figure_17.png",
+      "sha256": "3668f6b1f14f0c1b0f3fc6530c438adce3b9d8e0467dc3cefa34562ec6df84ea"
+    }
+  ],
+  "results": [
+    {
+      "file": "docs/results/figure_08_reconstruction.csv",
+      "sha256": "e102662d97b45f2aa3e404205dc81c493c6d2e225b4b453f475000e19924c5b5",
+      "role": "Figure 8: Reconstruction benefit and training cost"
+    },
+    {
+      "file": "docs/results/figure_09_generalization.csv",
+      "sha256": "48bf83b6e0d5833a738c2cf62d329d176b00d52184c9d02626b5214435949769",
+      "role": "Figure 9: Other annotation and domain settings"
+    },
+    {
+      "file": "docs/results/figure_10_runtime.csv",
+      "sha256": "133dda31bb8db6de98ef1275822cb742c1b69ed6415c4bcb1934defa3c902a32",
+      "role": "Figure 10: Runtime"
+    },
+    {
+      "file": "docs/results/table_1_overall.csv",
+      "sha256": "aedddd8e3d1a7554c3dc5c2d06b0f4be4c9f06e380eb483af86532f54401f0bd",
+      "role": "Table 1: Overall comparison"
+    },
+    {
+      "file": "docs/results/table_2a_negative_placement.csv",
+      "sha256": "0961157f35e8eaf19c9da8fe4198a7a8bc729e235212d25729ba23cc73bc9805",
+      "role": "Table 2(a): Negative selection at a fixed quota"
+    },
+    {
+      "file": "docs/results/table_2b_reliability_inputs.csv",
+      "sha256": "f2843b184324ae72ccc51ffded4aa8bacc86ed33706d0434d4f075b42df1e518",
+      "role": "Table 2(b): Reliability-input controls"
+    },
+    {
+      "file": "docs/results/table_3_fusion_selection.csv",
+      "sha256": "41578a97a05ea53fe13c4537b3e5daa9cf6bc701d57ff28aeb4b7241ef777515",
+      "role": "Table 3: Fusion and selection"
+    },
+    {
+      "file": "docs/results/table_4_candidate_use.csv",
+      "sha256": "f4ae498fb8063cbd4a56175f0f04743eb6bf2ef68c0ea6d98b2d4386954364db",
+      "role": "Table 4: Candidate supervision and bounded refinement"
+    },
+    {
+      "file": "docs/results/table_5a_connectivity.csv",
+      "sha256": "e27c4982655d0e6a3edc73e3349103fdfd936f725bdd4fb8fc50181c2814c981",
+      "role": "Table 5(a): Continuity and separation"
+    },
+    {
+      "file": "docs/results/table_5b_human_connectivity.csv",
+      "sha256": "c308341917096030d259da7b5f53ace6a4f62ebe956a25539a612d9ad6b86bdc",
+      "role": "Table 5(b): Independent human connectivity review"
+    },
+    {
+      "file": "docs/results/table_g7_parameters.csv",
+      "sha256": "09d9c1a431662b941bd4e41d8bcb1dd42d7a651cc927cbfa018a98d8f796959e",
+      "role": "Table G.7: Model size"
+    }
+  ]
+}

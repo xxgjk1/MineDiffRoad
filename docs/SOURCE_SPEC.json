@@ -1,0 +1,44 @@
+{
+  "version": "2026-10-21",
+  "manuscript_title": "MineDiffRoad: Reliability-Guided Mine Road Segmentation from Conservative Annotations",
+  "sources": [
+    {
+      "source": "Latest pasted TeX, attachment 986b6b96-f6d5-41c7-8c3d-a83733cb0a32",
+      "sha256": "9b5d56971305a120ffb96787dd8ffffc1201933cc918856c41c97dd8af67d035",
+      "role": "2026-10-19 method, results and caption definitions; optimizer settings superseded by the user-confirmed Overleaf version"
+    },
+    {
+      "source": "MineDiffRoad_20261019_LatestPasted_English.pdf",
+      "sha256": "29665bdb3f562d56dd2f5574bfd8e21adcc83f0de1817084a5bc748098c7e5bd",
+      "pages": 39,
+      "role": "Historical 39-page figure rendering and numbering; not a verification source for the later Overleaf Figure 5"
+    },
+    {
+      "source": "English TeX attachment 4778b4ad-14a4-4bfb-85c8-8995d577ade2",
+      "sha256": "d38ed19d3da2d18f08ab4d84d7d0bb03156bfaaee1fa1c3942a977b8f05a093b",
+      "role": "Current manuscript method, dataset split, result numbering, and captions"
+    },
+    {
+      "source": "MineDiffRoad__Reliability_Guided_Mine_Road_Segmentation_from_Conservative_Annotations__1_ (25).pdf",
+      "sha256": "04d8770239f26c1268c9d1f6902718ad1c086caf8e2876d5579ef2771004d786",
+      "pages": 40,
+      "role": "Current figure rendering and physical page locations"
+    }
+  ],
+  "implementation_notes": "IMPLEMENTATION_NOTES.md",
+  "implementation_settings": [
+    "four-stage resize/concatenate aggregation",
+    "3x3 unknown-mask erosion",
+    "fit-and-pad default geometry",
+    "warmup 10 epochs and EMA 0.99",
+    "other loss and augmentation details documented in implementation notes"
+  ],
+  "default_optimizer": {
+    "name": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "learning_rate_schedule": "constant",
+    "batch_size": 2
+  },
+  "optimizer_setting_basis": "User-confirmed Overleaf manuscript settings; this metadata does not identify the configuration of earlier result-producing runs"
+}

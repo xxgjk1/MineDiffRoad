@@ -1,0 +1,5 @@
+-r requirements.txt
+# CUDA dependency example recorded 2026-10-11.
+# Select builds compatible with your PyTorch/CUDA.
+spconv-cu124==2.3.8
+cumm-cu124==0.7.11

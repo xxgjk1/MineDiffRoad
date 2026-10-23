@@ -1,0 +1,5 @@
+Method,clDice ↑,LPR ↑,XCR ↓,Endpoint FCR ↓
+Concat,73.13,42.83,58.02,100.00
+CorrMatch,73.87,46.51,48.03,99.19
+MineDiffRoad,74.83,53.13,41.37,99.06
+Complete label model,76.51,60.03,38.01,96.94

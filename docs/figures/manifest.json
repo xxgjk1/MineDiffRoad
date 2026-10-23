@@ -1,0 +1,246 @@
+{
+  "source_pdf": "MineDiffRoad__Reliability_Guided_Mine_Road_Segmentation_from_Conservative_Annotations__1_ (25).pdf",
+  "source_sha256": "04d8770239f26c1268c9d1f6902718ad1c086caf8e2876d5579ef2771004d786",
+  "dpi": 240,
+  "method": "Exact PDF-region rendering, including original legends and captions",
+  "figures": [
+    {
+      "figure": 1,
+      "label": "Figure 1",
+      "title": "Conservative annotation",
+      "page": 4,
+      "crop_points": [
+        104.0,
+        347.0,
+        505.0,
+        510.0
+      ],
+      "file": "figure_01.png",
+      "sha256": "f83a1278ee45bf5dd46869058d2006f3e4a7f7c9a48ca97c5b78b54c464dc403"
+    },
+    {
+      "figure": 2,
+      "label": "Figure 2",
+      "title": "Supervision mask generation",
+      "page": 8,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        402.0
+      ],
+      "file": "figure_02.png",
+      "sha256": "07a74c849ed9c3ad50f15411df8b0e9da44cbd18c6c13dc472e304d51afceb62"
+    },
+    {
+      "figure": 3,
+      "label": "Figure 3",
+      "title": "Training and inference",
+      "page": 9,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        385.0
+      ],
+      "file": "figure_03.png",
+      "sha256": "ebd2a4ac21ae54698e08476c9dd856bd305ee053e742b554fd2cd267698cea49"
+    },
+    {
+      "figure": 4,
+      "label": "Figure 4",
+      "title": "Local supervision changes",
+      "page": 11,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        366.0
+      ],
+      "file": "figure_04.png",
+      "sha256": "d9f8f3df31312b32b2e8e35d261daf6c9d5c4cd6920f5e7eadcafce56c568409"
+    },
+    {
+      "figure": 5,
+      "label": "Figure 5",
+      "title": "Road recovery and boundary expansion",
+      "page": 16,
+      "crop_points": [
+        104.0,
+        217.0,
+        505.0,
+        471.0
+      ],
+      "file": "figure_05.png",
+      "sha256": "c30ee89e4df3f8ddea8d1165ffc9205a25458a2be36d97fbcd03c5305bea4d64"
+    },
+    {
+      "figure": 6,
+      "label": "Figure 6",
+      "title": "Confidence and reliability diagnostics",
+      "page": 19,
+      "crop_points": [
+        104.0,
+        219.0,
+        505.0,
+        572.0
+      ],
+      "file": "figure_06.png",
+      "sha256": "150ae88fee06c6ad339c25584d18704701eb28da6408d4f38ad7d306f95a9dca"
+    },
+    {
+      "figure": 7,
+      "label": "Figure 7",
+      "title": "Fixed-quota negative selection",
+      "page": 20,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        396.0
+      ],
+      "file": "figure_07.png",
+      "sha256": "4a6e37b78ce1ba579b72a4a4fcaa764ac88ad8bd7cc22c5b6de6f846650ff5e4"
+    },
+    {
+      "figure": 8,
+      "label": "Figure 8",
+      "title": "Reconstruction benefit and training cost",
+      "page": 21,
+      "crop_points": [
+        104.0,
+        425.0,
+        505.0,
+        627.0
+      ],
+      "file": "figure_08.png",
+      "sha256": "3ac7b74335459b03a5658d08ec571720f1b532704c1332ce89a64b4d0f9122b0"
+    },
+    {
+      "figure": 9,
+      "label": "Figure 9",
+      "title": "Other annotation and domain settings",
+      "page": 22,
+      "crop_points": [
+        104.0,
+        235.0,
+        505.0,
+        437.0
+      ],
+      "file": "figure_09.png",
+      "sha256": "08a79f6c5e1632eee1c777a716515eb45bb40f92bf8d3feb285aa42cc4f21578"
+    },
+    {
+      "figure": 10,
+      "label": "Figure 10",
+      "title": "Latency and throughput",
+      "page": 24,
+      "crop_points": [
+        104.0,
+        325.0,
+        505.0,
+        536.0
+      ],
+      "file": "figure_10.png",
+      "sha256": "42877968d02a7f80940ec7b1b552218a823a53201c6193c1949048faf9689289"
+    },
+    {
+      "figure": 11,
+      "label": "Figure E.11",
+      "title": "SegMine paired RGB and measured point clouds",
+      "page": 31,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        346.0
+      ],
+      "file": "figure_11.png",
+      "sha256": "f668b70f8d1359f94278b07bb15c4beca4400fceb337ca36f1d96e42a1930c89"
+    },
+    {
+      "figure": 12,
+      "label": "Figure F.12",
+      "title": "Validation trajectories",
+      "page": 33,
+      "crop_points": [
+        104.0,
+        244.0,
+        505.0,
+        515.0
+      ],
+      "file": "figure_12.png",
+      "sha256": "a5a0a87f63714c009270f67d109f0cf2ff9c8ac81292527a49b5ff58e1f0068b"
+    },
+    {
+      "figure": 13,
+      "label": "Figure F.13",
+      "title": "SegMine segmentation examples",
+      "page": 34,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        431.0
+      ],
+      "file": "figure_13.png",
+      "sha256": "9b9ac3898b9081713e4867cf95451b1172ec9f1693ec608319d968f68f3637a7"
+    },
+    {
+      "figure": 14,
+      "label": "Figure F.14",
+      "title": "Left-edge recovery ROI",
+      "page": 34,
+      "crop_points": [
+        104.0,
+        446.0,
+        505.0,
+        668.0
+      ],
+      "file": "figure_14.png",
+      "sha256": "c783cd1e19d9dd9325d9e8e523214351c6b1dbcec97fbc6d2549e3021651947d"
+    },
+    {
+      "figure": 15,
+      "label": "Figure F.15",
+      "title": "Quota and false negative supervision",
+      "page": 35,
+      "crop_points": [
+        104.0,
+        165.0,
+        505.0,
+        444.0
+      ],
+      "file": "figure_15.png",
+      "sha256": "8edaeb07ad71f8a3dfd2f19b57a3b76cd34c40004cd9bd2f79452a0ce02d5220"
+    },
+    {
+      "figure": 16,
+      "label": "Figure F.16",
+      "title": "Scene-wise gains",
+      "page": 36,
+      "crop_points": [
+        104.0,
+        237.0,
+        505.0,
+        439.0
+      ],
+      "file": "figure_16.png",
+      "sha256": "7126045755b532a4586a7e19dad7c4302e263aea90e566afde0acc4271716638"
+    },
+    {
+      "figure": 17,
+      "label": "Figure F.17",
+      "title": "RELLIS-3D segmentation examples",
+      "page": 37,
+      "crop_points": [
+        104.0,
+        122.0,
+        505.0,
+        436.0
+      ],
+      "file": "figure_17.png",
+      "sha256": "3668f6b1f14f0c1b0f3fc6530c438adce3b9d8e0467dc3cefa34562ec6df84ea"
+    }
+  ]
+}

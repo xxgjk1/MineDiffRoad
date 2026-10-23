@@ -1,0 +1,4 @@
+# Matched online admission control; inherits the default optimizer settings.
+base: paper.yaml
+selection:
+  negative_rule: confidence

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Replace with measured camera calibration; this is a schema, not sensor values",
+  "type": "object",
+  "required": ["K", "T_lidar_to_camera"],
+  "properties": {
+    "K": {"description": "3x3 camera intrinsics on original RGB pixels; camera coordinates x-right y-down z-forward", "type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "number"}}},
+    "T_lidar_to_camera": {"description": "4x4 rigid transform from LiDAR metres to camera metres", "type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "number"}}}
+  }
+}

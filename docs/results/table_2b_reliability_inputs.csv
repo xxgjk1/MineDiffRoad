@@ -1,0 +1,5 @@
+Ranking signal,IoU ↑
+Teacher background confidence,66.14
+"Low level texture, geometry, and support",67.16
+Joint features with stopped input gradients,67.62
+Default reliability heads,68.76
